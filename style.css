@@ -1,0 +1,151 @@
+.di1{ 
+    background-color: #fe7170; 
+    display: flex; 
+    justify-content: space-evenly; 
+ 
+} 
+ 
+.container3{ 
+    font-family:"poppins",sans-serif ; 
+} 
+ 
+.img1{ 
+    height: 30px; 
+    width: 40px; 
+    margin-top: 15px; 
+} 
+ 
+.h:hover{ 
+    border: 2px solid white; 
+} 
+ 
+.di2{ 
+   display: flex;  
+}  
+ 
+.di3{ 
+    padding-left: 50px; 
+} 
+ 
+.p1{ 
+    padding-right: 100px; 
+     
+} 
+ 
+ .h1{ 
+    margin-top: 150px; 
+    margin-bottom: 50px; 
+}  
+ 
+.img2{ 
+     
+    height: 500px; 
+    width: 700px; 
+   float:right; 
+} 
+ 
+.btn{ 
+    margin-top: 50px; 
+    width: 150px; 
+    height: 35px; 
+    background-color: #fe7170; 
+    color: white; 
+    border: none; 
+} 
+ 
+.container5{ 
+    display: flex; 
+    padding-left: 50px; 
+} 
+.fb{ 
+    margin-top: 100px; 
+    display: flex; 
+    flex-direction: column; 
+ 
+} 
+ 
+.img3{ 
+    height: 200px; 
+    width: 200px; 
+} 
+ 
+.img4{ 
+    margin-top: 10px; 
+    height: 200px; 
+    width: 200px; 
+} 
+ 
+.img5{ 
+    margin-top: 100px; 
+    padding-left: 20px; 
+    height: 410px; 
+    width: 200px; 
+ 
+} 
+ 
+.div1{ 
+    margin-top: 200px; 
+    margin-left: 100px; 
+    background-color: #fe7170; 
+    font-family:"josefin sans",sans-serif ; 
+    height: 210px; 
+    width: 400px; 
+    padding-left: 20px; 
+} 
+ 
+.div2{ 
+    display: flex; 
+} 
+ 
+.img6{ 
+    margin-top: 8px; 
+    padding-left: 10px; 
+    height: 30px; 
+    width: 20px; 
+} 
+body{ 
+    background: rgb(244,234,162); 
+    background: linear-gradient(90deg,rgba(244,234,162,1) 0%,rgba(254,208,210,1) 75%) ; 
+} 
+ 
+@media only screen and (max-width: 767px) { 
+    .container { 
+        padding: 0 10px;  
+    } 
+    .di2 { 
+        flex-direction: column;  
+    } 
+    .img2 { 
+        width: 100%;  
+        height: auto;  
+    } 
+    .p1 { 
+        padding-right: 20px;  
+    } 
+    .container5 { 
+        flex-direction: column;  
+        padding-left: 0;  
+    } 
+    .img5 { 
+        margin-top: 20px;  
+        width: 100%;  
+    } 
+    .div1 { 
+        margin-top: 50px;  
+        margin-left: 0;  
+        width: 100%;  
+        padding: 20px;  
+    } 
+    .img6 { 
+        margin-top: 5px; 
+        width: 15px;  
+        height: auto;  
+    } 
+}  
+ 
+ 
+@media only screen and (max-width: 320px) { 
+    .img5 { 
+        height: auto;  
+    } 
+}
